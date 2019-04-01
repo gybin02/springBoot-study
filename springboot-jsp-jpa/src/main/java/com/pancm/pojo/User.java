@@ -32,8 +32,9 @@ public class User {
 	 /** 年龄 */
 	 @Column(nullable = false)
 	 private Integer age;
-	 
-	 public User(){
+	private String birthday;
+
+	public User(){
 	 }
 
 	/**  
@@ -111,8 +112,13 @@ public class User {
 	public String toString() {
 		return "User [id=" + id + ", name=" + name + ", password=" + password + ", age=" + age + "]";
 	}
-	
-	
-	
 
+
+    public void setBirthday(String birthday) {
+        this.birthday = birthday;
+    }
+
+    public String getBirthday() {
+        return birthday;
+    }
 }

@@ -95,8 +95,7 @@
 			<artifactId>tomcat-embed-jasper</artifactId>
 			<scope>provided</scope>
 		</dependency>
-        
-        
+
   </dependencies>
 
 	<build>
